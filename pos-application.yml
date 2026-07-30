@@ -31,9 +31,9 @@ app:
       state-id: 9
       state-code: UP
       state-name: Uttar Pradesh
-      jdbc-url: jdbc:postgresql://10.10.20.9:5432/ifms_up
-      username: up_user
-      password: ChangeThisPassword
+      jdbc-url: jdbc:postgresql://10.246.45.239:5432/mFMS
+      username: postgres
+      password: postgres
       minimum-idle: 2
       maximum-pool-size: 20
 
@@ -41,8 +41,8 @@ app:
       state-id: 23
       state-code: MP
       state-name: Madhya Pradesh
-      jdbc-url: jdbc:postgresql://10.10.20.23:5432/ifms_mp
-      username: mp_user
-      password: ChangeThisPassword
+      jdbc-url: jdbc:postgresql://10.246.45.239:5432/mFMS
+      username: postgres
+      password: postgres
       minimum-idle: 2
       maximum-pool-size: 20
