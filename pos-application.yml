@@ -31,9 +31,9 @@ app:
       state-id: 9
       state-code: UP
       state-name: Uttar Pradesh
-      jdbc-url: jdbc:postgresql://10.246.45.239:5432/mFMS?currentSchema=mfms
-      username: postgres
-      password: postgres
+      jdbc-url: jdbc:postgresql://10.246.45.14:5432/mFMS?currentSchema=mfms
+      username: harekrishna
+      password: Harekrishna@nic
       minimum-idle: 2
       maximum-pool-size: 20
 
@@ -42,7 +42,7 @@ app:
       state-code: BR
       state-name: Bihar
       jdbc-url: jdbc:postgresql://10.246.45.239:5432/mFMS?currentSchema=mfms
-      username: postgres
-      password: postgres
+      username: harekrishna
+      password: Harekrishna@nic
       minimum-idle: 2
       maximum-pool-size: 20
