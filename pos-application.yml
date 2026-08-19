@@ -5,7 +5,7 @@ app:
     header-state-code: X-State-Code
 
   default-database:
-    jdbc-url: jdbc:postgresql://10.246.45.14:5432/mFMS
+    jdbc-url: jdbc:postgresql://10.246.45.14:5432/mFMS?currentSchema=mfms
     username: harekrishna
     password: Harekrishna@nic
 
@@ -31,7 +31,7 @@ app:
       state-id: 9
       state-code: UP
       state-name: Uttar Pradesh
-      jdbc-url: jdbc:postgresql://10.246.45.14:5432/mFMS
+      jdbc-url: jdbc:postgresql://10.246.45.14:5432/mFMS?currentSchema=mfms
       username: harekrishna
       password: Harekrishna@nic
       minimum-idle: 2
@@ -41,7 +41,7 @@ app:
       state-id: 10
       state-code: BR
       state-name: Bihar
-      jdbc-url: jdbc:postgresql://10.246.45.14:5432/mFMS
+      jdbc-url: jdbc:postgresql://10.246.45.14:5432/mFMS?currentSchema=mfms
       username: harekrishna
       password: Harekrishna@nic
       minimum-idle: 2
