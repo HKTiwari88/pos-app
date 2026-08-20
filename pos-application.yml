@@ -5,7 +5,7 @@ app:
     header-state-code: X-State-Code
 
   default-database:
-    jdbc-url: jdbc:postgresql://10.246.45.239:5432/mFMS?currentSchema=mfms
+    jdbc-url: jdbc:postgresql://10.246.45.239:5432/mFMS07AUG?currentSchema=mfms
     username: harekrishna
     password: Harekrishna@nic
 
