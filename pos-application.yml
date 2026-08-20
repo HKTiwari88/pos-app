@@ -6,8 +6,8 @@ app:
 
   default-database:
     jdbc-url: jdbc:postgresql://10.246.45.239:5432/mFMS07AUG?currentSchema=mfms
-    username: harekrishna
-    password: Harekrishna@nic
+    username: postgres
+    password: postgres
 
     minimum-idle: 2
     maximum-pool-size: 10
